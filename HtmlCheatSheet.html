@@ -7,41 +7,92 @@
 			<meta lang="en"/>
 			<link href="./style.css"/>
 			<style>
-				
+				img{
+					height: 200px;
+					width: 200px;
+				}
+				table{
+					background-color: aqua;
+				}
 			</style>
 		</head>
 		<body>
+
 			<header>
 				<nav>
 					<a href="#">navigation link</a>
 				</nav>
 			</header>
+			
 			<main>
 				<section>
-					<h2>A Simple Heading</h2>
+					<h2>Showing Section and article with formatting text</h2>
 					<article>
 						<p>
-							<pre>This is the <b>paragraph</b>, written on 1<sup>st</sup> of <i>March</i>, <em>2023</em>.
+							<pre>
+								This is the <b>bold text</b>, written on 1<sup>st</sup> of <i>April</i>, <em>2023</em>,
+								or <date>01/04/2023</date>
 								Hope this will be on the next line.
-								It will be the n<sub>th</sub> time I am <strong>practising</strong> this.
+								It will be the 5<sub>th</sub> time I am using <strong>strong text</strong>.
+								This should be <mark>highlighted</mark>.
+								This shoud be <cite>Quoted once a time</cite>
 							</pre>
 						</p>
 					</article>
 				</section>
+
+				<h2>Heading :How to make tables</h2>
+				<table>
+					<caption>This is the caption for the Table</caption>
+					<thead>
+						<th>S.No</th>
+						<th>Name</th>
+						<th>Address</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Sandeep</td>
+							<td>Delhi</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Monica</td>
+							<td>USA</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="2"><b>footer</b></td>
+							<td><b>footer</b></td>
+						</tr>
+					</tfoot>
+				</table>
+
+				<h2>Heading:<u>How to use Lists</u>:</h2>
 			</main>
+			
 			<aside>
 				<section>
-					<img src="./cuteCat.jpg" alt="cute_cat_picture.jpg"/>
+					<figure>
+						<figcaption>Cat pictures</figcaption>
+						<img src="D:\Projects\HTML\cuteCat.jpeg" alt="cute cat"/>
+						<img src="D:\Projects\HTML\cuteCat2.jpg" />
+					</figure>
 					<article>
 						<p>This is the cutest cat you will ever see. It's name is Kid Cat, and its one of its kind, maybe.</p>
 						<a href="https://www.google.com">search that cat here</a></article>
 				</section>
 			</aside>
+			
 			<footer>
-				<address><p>Silicon Vally,
-					5<sup>th</sup> Street, Washington, USA</p>
-					<pre><strong>Contact :</strong><i>9988774466</i></pre>
-				</address>
+				<section>
+					<h2> Address </h2>
+					<address><p>Silicon Vally,
+						5<sup>th</sup> Street, Washington, USA</p>
+						<pre><strong>Contact :</strong><i>9988774466</i></pre>
+					</address>
+				<section>
 			</footer>
 		</body>
 	</html>
