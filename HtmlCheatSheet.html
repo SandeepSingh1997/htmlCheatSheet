@@ -13,6 +13,19 @@
 				}
 				table{
 					background-color: aqua;
+					border: 2px solid black;
+				}
+				header{
+					border: 2px solid black;
+				}
+				main{
+					border: 2px solid red;
+				}
+				aside{
+					border: 2px dashed blue;
+				}
+				footer{
+					border: 2px solid green;
 				}
 			</style>
 		</head>
@@ -28,15 +41,12 @@
 				<section>
 					<h1>H1: <u>Section and article with formatting text</u></h1>
 					<article>
-						<p>
-							<pre>
-								This is the <b>bold text</b>, written on 1<sup>st</sup> of <i>April</i>, <em>2023</em>,
-								or <date>01/04/2023</date>
-								Hope this will be on the next line.
-								It will be the 5<sub>th</sub> time I am using <strong>strong text</strong>.
-								This should be <mark>highlighted</mark>.
-								This shoud be <cite>Quoted once a time</cite>
-							</pre>
+						<p>This is the <b>bold text</b>, written on 1<sup>st</sup> of <i>April</i>, <em>2023</em>,
+							or <date>01/04/2023</date>
+							Hope this will be on the next line.
+							It will be the 5<sub>th</sub> time I am using <strong>strong text</strong>.
+							This should be <mark>highlighted</mark>.
+							This shoud be <cite>Quoted once a time</cite>
 						</p>
 					</article>
 				</section>
@@ -91,6 +101,46 @@
 				</dl>
 
 				<h1>H1: <u>Forms</u></h1>
+				<form>
+					<fieldset>
+						<legend>
+							Legend: Personal Details
+						</legend>
+
+						<label>Name:</label>
+						<input type="text"/>
+						<br/>
+
+						<label>Age</label>
+						<input type="number"/>
+						<br/>
+
+						<label>Radio button: Do you love pets?</label>
+						<input type="radio" name="likePets">Yes </input>
+						<input type="radio" name="likePets">No </input>
+						<br/>
+
+						<label>Checkbox: What pets do you like?</label>
+						<input type="checkbox" name="petsILike">Dogs</input>
+						<input type="checkbox" name="petsILike">Cats</input>
+						<input type="checkbox" name="petsILike">Snakes</input>
+						<br/>
+
+						<label>Select:</label>
+						<select>
+							<optgroup>
+								<option>Option 1 Group 1</option>
+								<option>Option 2 Group 1</option>
+							</optgroup>
+							<optgroup>
+								<option>Option 1 Group 2</option>
+								<option>Option 2 Group 2</option>
+							</optgroup>
+						</select>
+						<button>Submit</button>
+
+					</fieldset>
+				</form>
 
 			</main>
 			
@@ -104,7 +154,8 @@
 					</figure>
 					<article>
 						<p>This is the cutest cat you will ever see. It's name is Kid Cat, and its one of its kind, maybe.</p>
-						<a href="https://www.google.com">search that cat here</a></article>
+						<a href="https://www.google.com">search that cat here</a>
+					</article>
 				</section>
 			</aside>
 			
